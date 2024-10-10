@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Java</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="tinkercad.html">Tinkercad</a>
+        <a href="C++.html">C++</a>
+        <a href="java.html">Java</a>
+    </nav>
+    <h1>Línguagem Java</h1>
+    <br>
+    <p>O Java é uma linguagem de programação popular orientada a objetos e multiplataforma. O Java pode ser usado como uma plataforma por meio das máquinas virtuais Java (JVMs), que podem ser instaladas na maioria dos computadores e dispositivos móveis.</p>
+    <br>
+    <p>Veremos a baixo um exemplo de código Java (imagem)</p>
+    <br>
+    <div>
+        <img src="java.png" alt="Java">
+    </div>
+    <br>
+    <p>Veremos abaixo um exemplo de código java (texto)</p>
+    <br>
+    <pre>
+        import java.util.Scanner;
+
+public class programa03 {
+    public static void main(String[] args) {
+        Scanner  sc = new Scanner(System.in);
+
+        double num = 0.0;
+        double val = 0.0;
+        double resposta = 0.0;
+
+        System.out.println("|--------------------------|");
+        System.out.println("|-- Programa Multiplica --|");
+        System.out.println("|--------------------------|");
+        System.out.println("\n");
+        System.out.print("Digite o primeiro número: ");
+        num = sc.nextDouble();
+        System.out.println("\n");
+        System.out.print("Digite o segundo número: ");
+        val = sc.nextDouble();
+        System.out.println("\n");
+        resposta = num * val;
+        System.out.printf("O resultado da multiplicação é: %.2f" ,resposta);
+        System.out.print("\n    ");
+        System.out.println("|-----------------------|");
+        sc.close();
+    }
+}
+
+    </pre>
+    
+</body>
+</html>

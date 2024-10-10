@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>C++</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="tinkercad.html">Tinkercad</a>
+        <a href="C++.html">C++</a>
+        <a href="java.html">Java</a>
+    </nav>
+    <h1>Línguagem de C++</h1>
+    <br>
+    <p>O C++ é uma linguagem de programação que desempenha um papel fundamental no desenvolvimento de software, destacando-se por sua versatilidade e eficiência.</p>
+    <br>
+    <p>Veremos abaixo um exemplo de código C++ da IDE ARDUÍNO (imagem) </p>
+    <br>
+    <div>
+        <img src="codigo_c++.png" alt="C++">
+    </div>
+    <br>
+    <p>Veremos abaixo um exemplo de código C++ da IDE ARDUÌNO (texto) </p>
+    <br>
+    <pre>
+ // C++ code
+//
+int num = 0;
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  pinMode(12, OUTPUT);
+
+  num = analogRead(A0);
+}
+
+void loop()
+{
+  num = 0;
+  num += analogRead(A0);
+  if (num >= 500) {
+    digitalWrite(12, HIGH);
+  } else {
+    digitalWrite(12, LOW);
+  }
+  delay(500); // Wait for 500 millisecond(s)
+}
+    </pre>
+</body>
+</html>

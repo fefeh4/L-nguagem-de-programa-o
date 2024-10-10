@@ -1,0 +1,56 @@
+body{
+    background-color: indianred;
+    color: antiquewhite;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    padding: 8px 20px;
+    
+}
+nav a{
+    font-size: 22px;
+    text-decoration: solid;
+    color: brown;
+    margin: 5px 20px;
+    text-align: center;
+}
+img{
+    border: 10px solid;
+    border-radius: 15px;
+    border-color: burlywood;
+    text-align: center;
+    width: 700px;
+    height: 500px;
+
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: center;
+    font-style: italic;
+}
+div{
+    text-align: center;
+}
+pre{
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+ol{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+br{
+    text-align: center;
+}
